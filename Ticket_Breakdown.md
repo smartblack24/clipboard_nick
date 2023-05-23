@@ -17,7 +17,7 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ## Your Breakdown Here
 
-### Ticket1: Add Custom Agent IDs to Facilities
+### Ticket 1: Add Custom Agent IDs to Facilities
 
 #### Description:
 Currently, the system uses internal database ID for Agents in the reports generated for Facilities.
@@ -31,7 +31,8 @@ So these new custom IDs will be used in the reports instead of internal database
 - Custom ID is used in the report generation process instead of the internal database ID.
 
 #### Time Estimages:
-About 1.5 Day
+
+1.5 Day: 
 Database Changes(2 hours) + Backend Changes(4 hours) + Frontend Changes(4 hours) + Testing and Bug Fixing(2)
 
 #### Implementation Details
@@ -53,7 +54,8 @@ We need to update this function to include the custom ID of the Agent in the ret
 - Ensure custom ID is included in the Shift metadata object
 
 #### Time Estimate:
-0.5 day
+
+0.5 day: 
 Backend Changes (3 hours) + Testing (1 hour)
 
 #### Implementation Details:
@@ -73,7 +75,8 @@ We need to update this function to use the custom ID for each Agent that is prov
 - Custom ID is displayed in the generated PDF reports.
 
 #### Effort Estimate:
-1 day
+
+1 day: 
 Backend changes (4 hours) + Frontend changes (2 hours) + Testing (1 hour)
 
 #### Implementation Details:
